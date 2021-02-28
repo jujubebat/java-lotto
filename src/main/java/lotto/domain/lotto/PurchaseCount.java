@@ -1,4 +1,4 @@
-package lotto.domain.lotto.util;
+package lotto.domain.lotto;
 
 public class PurchaseCount {
 
