@@ -47,7 +47,7 @@ public class LottoTicket {
         return (int) count;
     }
 
-    public void validateCreateLottoLines() {
+    private void validateCreateLottoLines() {
         if (lottoLines.size() == 0) {
             throw new IllegalArgumentException(LOTTO_TICKET_CREATE_ERROR);
         }
